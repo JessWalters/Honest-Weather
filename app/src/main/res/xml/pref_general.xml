@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="example_checkbox"
+        android:title="@string/pref_title_temp_type"
+        android:summary="@string/pref_description_temp_type"
+        android:defaultValue="true" />
+
+    <ListPreference
+        android:key="background_color"
+        android:title="@string/pref_title_select_color"
+        android:defaultValue="blue"
+        android:entries="@array/pref_background_titles"
+        android:entryValues="@array/pref_background_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+</PreferenceScreen>
